@@ -243,7 +243,11 @@ streznik.post('/stranka', function(zahteva, odgovor) {
 streznik.post('/odjava', function(zahteva, odgovor) {
     odgovor.redirect('/prijava') 
 })
+
 //nič
+
+//nič, skoraj
+
 
 
 streznik.listen(process.env.PORT, function() {
